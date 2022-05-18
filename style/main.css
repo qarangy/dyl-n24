@@ -27,6 +27,28 @@ body {
 
 }
 
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    padding: 13px 20px;
+    line-height: normal;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.6;
+}
+
+
+/* CONTAINER */
 .container {
     width: 100%;
     max-width: 1240px;
@@ -34,4 +56,80 @@ body {
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f6f6f6;
+}
+
+.site-header-top-container {
+    display: flex;
+    align-items: center;
+}
+
+.site-header-logo {
+    display: flex;
+    padding: 8px 6px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-right: 35px;
+}
+
+.site-header-logo:hover {
+    opacity: 0.8;
+}
+
+.site-header-logo:active {
+    opacity: 0.6;
+}
+
+/* CURRENCY-RATE */
+.currency-rate {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: auto;
+}
+.currency-rate-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.currency-rate-type {
+    color: #2959CE;
+}
+
+
+/* LANG-TOGGLE */
+.lang-toggle {
+    display: flex;
+    padding: 3px;
+    border-radius: 39px;
+    background-color: #DCE6FF;
+    margin-right: 25px;
+}
+
+.lang-toggle-link {
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #a6a6a6;
+}
+
+.lang-toggle-link-active {
+    background-color: #fff;
+    color: #000;
+}
+
+/* BUTTON */
+.btn-primary {
+    background-color: #7296EC;
+    color: #fff;
 }
