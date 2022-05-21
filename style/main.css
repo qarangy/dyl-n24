@@ -64,6 +64,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #f6f6f6;
+    margin-bottom: 10px;
 }
 
 .site-header-top-container {
@@ -132,4 +133,55 @@ body {
 .btn-primary {
     background-color: #7296EC;
     color: #fff;
+}
+
+
+
+
+
+
+/* SITENAV */
+.sitenav {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.sitenav-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    list-style: none;
+    align-items: center;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 34px;
+}
+
+.sitenav-link {
+    display: block;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+.sitenav-link:hover {
+    color: #7296EC;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+
+
+/* SITE-HEADER-BANNER */
+.site-banner-link {
+    display: flex;
 }
